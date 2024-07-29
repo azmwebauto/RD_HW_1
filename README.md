@@ -3,4 +3,4 @@
 
 ```sh
 pip install -r requirements.txt
-main.py -f urls.txt
+python main.py -f urls.txt
