@@ -47,7 +47,7 @@ async def main():
     args = arguments_parser.parse_args()
 
     with open(args.file, 'r') as f:
-        urls = f.read().splitlines()
+        urls = [line for line in f.read().splitlines() if 'http://' in line or 'https://' in line]
 
     await parse_urls(urls)
 
