@@ -2,6 +2,5 @@
 
 
 ```sh
-pip install poetry
-poetry install
+pip install -r requirements.txt
 main.py -f urls.txt
