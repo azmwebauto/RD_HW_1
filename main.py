@@ -20,7 +20,7 @@ if not RESULTS_FOLDER.exists():
 async def get_response(client, url: str) -> tuple[str, httpx.Response] | tuple[str, Exception]:
     try:
         async with asyncio.timeout(TIMEOUT):
-            response = await client.get(url)
+            response = await client.get(url, timeout=20)
             return url, response
     except Exception as e:
         logging.error(f'{url}: {e}')

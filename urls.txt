@@ -1,6 +1,6 @@
-https://api.ipify.org
-https://api.ipify.org
-https://api.ipify.org
-https://api.ipify.org
-https://api.ipify.org
-http://localhost:8000
+https://httpbin.org/delay/5
+https://httpbin.org/delay/5
+https://httpbin.org/delay/5
+https://httpbin.org/delay/5
+https://httpbin.org/delay/5
+https://httpbin.org/delay/5
